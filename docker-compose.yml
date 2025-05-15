@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  spark:
+    build: .
+    container_name: pyspark_app
+    volumes:
+      - .:/app
+    environment:
+      - PYSPARK_PYTHON=python
+      - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=adm
+      - POSTGRES_PASSWORD=adm
+    depends_on:
+      - postgres
+    ports:
+      - "8888:8888" # Exemplo: Jupyter notebook, se quiser rodar
+
+  postgres:
+    image: postgres:14
+    container_name: postgres_db
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=adm
+      - POSTGRES_PASSWORD=adm
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
