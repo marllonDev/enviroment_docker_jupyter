@@ -28,5 +28,5 @@ Follow me: [Linkedin](https://www.linkedin.com/in/marllonzuc/) \
 My Blog: [Blog](https://datatrends.me/)
 
 
-![Logo](https://media.licdn.com/dms/image/v2/D4D03AQFf4qCIA-wO6g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732277339432?e=1752710400&v=beta&t=qGKUqDQ3LmPt1oX8X2aLkOn6oxtUL4c9qzATB0tvCGg)
+![Logo](https://media.licdn.com/dms/image/v2/D4D03AQEFlFTNmApBhQ/profile-displayphoto-shrink_800_800/B4DZbt9iTrHsAc-/0/1747749054334?e=1753315200&v=beta&t=VfBvrDxLmoAYccE0DW63MbSLz_ao9Xp_HQAfcyP7-og)
 
